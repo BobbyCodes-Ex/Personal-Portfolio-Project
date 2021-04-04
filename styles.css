@@ -1,1 +1,34 @@
-This is a text string.
+/* Landing Page*/
+
+/*NavBar*/
+
+/*nav {
+    background-color: black;
+}*/
+
+a.navigation:hover {
+    border-bottom: 2px solid green;
+}
+
+@media (max-width: 992px) {
+    a.navigation:hover {
+        border-bottom: none;
+    }
+}
+
+/*Main Article*/
+
+body {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url(./Photos/LandingPhotos/pexels-daniel-putzer-original.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/*Footer*/
