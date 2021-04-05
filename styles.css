@@ -2,9 +2,9 @@
 
 /*NavBar*/
 
-/*nav {
+nav {
     background-color: black;
-}*/
+}
 
 a.navigation:hover {
     border-bottom: 2px solid green;
@@ -14,6 +14,11 @@ a.navigation:hover {
     a.navigation:hover {
         border-bottom: none;
     }
+}
+
+.wes {
+    font-weight: lighter;
+    letter-spacing: 3px;
 }
 
 /*Main Article*/
@@ -28,7 +33,26 @@ body {
     background-image: url(./Photos/LandingPhotos/pexels-daniel-putzer-original.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
+/*Portfolio Section*/
+
+.portfolioSection {
+    background-color: black;
+}
+
+/*About Section*/
+
+.aboutSection {
+    margin-top: 525px;
+}
+
 /*Footer*/
+
+footer {
+    background-color: black;
+    color: white;
+}
