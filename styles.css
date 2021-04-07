@@ -44,10 +44,23 @@ body {
     background-color: black;
 }
 
+@media (min-width: 600px) {
+    .zoom img {
+        transition: transform .5s ease;
+    }
+
+    .zoom:hover img {
+        transform: scale(1.1);
+    }
+}
 /*About Section*/
 
 .aboutSection {
     margin-top: 525px;
+}
+
+ul.aboutInfo {
+    list-style-type: none;
 }
 
 /*Footer*/
