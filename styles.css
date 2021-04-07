@@ -63,9 +63,48 @@ ul.aboutInfo {
     list-style-type: none;
 }
 
+@media (max-width: 600px) {
+    .wd {
+        padding-top: 25px;
+    }
+}
+
+/*Contact*/
+
+.contactIcon {
+    color: black;
+}
+
+a.contactIcon:link {
+    text-decoration: none;
+    color: black;
+}
+
+a.contactIcon:hover {
+    color: #198754;
+}
+
+@media (max-width: 600px) {
+    .social {
+        padding-bottom: 25px;
+    }
+}
+
 /*Footer*/
 
 footer {
     background-color: black;
     color: white;
+}
+.footIcon {
+    color: white;
+}
+
+a.footIcon:link {
+    text-decoration: none;
+    color: white;
+}
+
+a.footIcon:hover {
+    color: #198754;
 }
